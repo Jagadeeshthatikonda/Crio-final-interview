@@ -1,0 +1,33 @@
+.teamCommonStyles {
+  width: 344px;
+  height: 109px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 25px;
+  gap: 15px;
+}
+
+.cases {
+  color: #606060;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.teamSelected {
+  border-radius: 14px;
+  background-color: var(--color-primary);
+  transition: background-color 0.5s ease;
+  .cases {
+    color: #886e2b;
+  }
+}
+
+.name {
+  color: var(--color-white);
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 600;
+}
