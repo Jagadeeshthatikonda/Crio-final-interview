@@ -6,7 +6,7 @@ const Logo = () => {
   return (
     <div className={styles.container}>
       <img src={logo} alt="lawfirmLogo" width={30} height={30} />
-      <p>IGSTUDIO</p>
+      <p className={styles.logoText}>IGSTUDIO</p>
     </div>
   );
 };

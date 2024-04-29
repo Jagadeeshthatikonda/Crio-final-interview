@@ -1,0 +1,61 @@
+.container {
+  background-color: var(--color-slight-gray);
+  padding-top: 40px;
+  padding-bottom: 80px;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100%;
+}
+
+.aboutUsBasicInfoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.aboutBasicInfoText {
+  font-size: 54px;
+  font-weight: 600;
+}
+.criminalLawyerHeading {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 52.01px;
+}
+.aboutUsContentLeftSectionContainer {
+  width: 387px;
+  height: 174px;
+}
+
+.aboutUsContentRightSectionContainer {
+  width: 475px;
+  height: 174px;
+}
+.criminalLawyerDescription {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29.25px;
+  color: var(--color-gray-secondary);
+}
+
+.verticalLine {
+  border-left: 1px solid var(--color-gray-border);
+  height: 206px;
+}
+
+.successRateInfoCards {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+  margin-top: 32px;
+}
+
+.successRateInfoCardHeader {
+  font-size: 54px;
+  font-weight: 600;
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+}
