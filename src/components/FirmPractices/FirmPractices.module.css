@@ -1,0 +1,112 @@
+.container {
+  padding: 60px 10%;
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+  font-size: 54px;
+  font-weight: 600;
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.practicesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  background-color: transparent;
+  padding: 10px;
+  background-size: cover;
+}
+
+.practicesCommonStyles {
+  flex-shrink: 1;
+  height: 342px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  background-repeat: no-repeat;
+  border-radius: 14px;
+  padding-bottom: 32px;
+  color: var(--color-white);
+  background-size: 100% 100%;
+}
+
+.businessLaw {
+  width: 72%;
+  background-image: url("../../assets/bussinessLaw.png");
+}
+
+@media screen and (max-width: 1279px) {
+  .businessLaw {
+    order: 0;
+    width: 100%;
+  }
+}
+
+.partnerShip {
+  width: 25%;
+  background-image: url("../../assets/partnershipLaw.png");
+}
+
+@media screen and (max-width: 1279px) {
+  .partnerShip {
+    width: 33%;
+    order: 3;
+  }
+}
+
+.realEstate {
+  width: 25%;
+
+  background-image: url("../../assets/realEstateLaw.png");
+}
+
+@media screen and (max-width: 1279px) {
+  .realEstate {
+    width: 33%;
+    order: 4;
+  }
+}
+
+.businessLaw2 {
+  width: 72%;
+
+  background-image: url("../../assets/businessLaw2.png");
+}
+
+@media screen and (max-width: 1279px) {
+  .businessLaw2 {
+    order: 1;
+
+    width: 100%;
+  }
+}
+.landDisputes {
+  width: 72%;
+
+  background-image: url("../../assets/landDisputes.png");
+}
+
+@media screen and (max-width: 1279px) {
+  .landDisputes {
+    order: 2;
+    width: 100%;
+  }
+}
+
+.elderAbuse {
+  width: 25%;
+  background-image: url("../../assets/elderAbsue.png");
+}
+
+@media screen and (max-width: 1279px) {
+  .elderAbuse {
+    width: 33%;
+    order: 5;
+  }
+}
