@@ -1,0 +1,84 @@
+.container {
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  color: var(--color-white);
+  font-size: 66px;
+  font-weight: 500;
+  width: 571px;
+  line-height: 97px;
+}
+
+.homeDescription {
+  width: 571px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29.25px;
+  text-align: left;
+  color: var(--color-gray-secondary);
+  margin-top: 16px;
+}
+
+.fightThemAlone {
+  font-weight: 700;
+}
+
+.homeInfoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  width: 50%;
+}
+
+.emailContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 438px;
+  height: 74px;
+  border-radius: 43px;
+  border: 1px solid var(--color-black);
+  background-color: var(--color-gray-secondary);
+  margin-top: 64px;
+  padding: 8px;
+}
+
+.emailContainer > button {
+  width: 137px;
+  height: 62px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  border-radius: 43px;
+  background-color: var(--color-primary);
+}
+
+.emailContainer > input {
+  background-color: var(--color-gray-secondary);
+  font-size: 16px;
+  border: none;
+  color: var(--color-white);
+  font-weight: 400;
+  padding: 8px;
+  flex-grow: 1;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.heroImage {
+  width: 34%;
+  height: 495px;
+}
+
+.messageIcon {
+  margin-left: 16px;
+}
