@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 359px;
+  height: 368px;
+  border: 1.4px solid #333333;
+  border-radius: 14px;
+  padding: 35px 25px;
+  overflow: hidden;
+}
+
+.clientName {
+  color: var(--color-white);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.designation {
+  color: var(--color-white);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.feedbackText {
+  color: var(--color-gray-secondary);
+  font-size: 14px;
+  font-weight: 500;
+}
