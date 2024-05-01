@@ -14,15 +14,16 @@
 }
 
 .accordiansDetails > p {
-  width: 99%;
   font-size: 18px;
   font-weight: 500;
   color: var(--color-gray-secondary);
+  width: 38%;
 }
 
 .accordiansContainer {
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 
 .accordianSummary {

@@ -6,6 +6,7 @@ import FirmPractices from "./components/FirmPractices/FirmPractices";
 import ClientsFeedback from "./components/ClientsFeedback/ClientsFeedback";
 import Team from "./components/Team/Team";
 import FAQ from "./components/FAQ/FAQ";
+import Subscribe from "./components/Subscribe/Subscribe";
 
 const App = () => (
   <div className={styles.appContainer}>
@@ -17,6 +18,7 @@ const App = () => (
       <ClientsFeedback />
       <Team />
       <FAQ />
+      <Subscribe />
     </div>
   </div>
 );
