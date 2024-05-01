@@ -5,6 +5,7 @@ import About from "./components/About/About";
 import FirmPractices from "./components/FirmPractices/FirmPractices";
 import ClientsFeedback from "./components/ClientsFeedback/ClientsFeedback";
 import Team from "./components/Team/Team";
+import FAQ from "./components/FAQ/FAQ";
 
 const App = () => (
   <div className={styles.appContainer}>
@@ -15,6 +16,7 @@ const App = () => (
       <FirmPractices />
       <ClientsFeedback />
       <Team />
+      <FAQ />
     </div>
   </div>
 );
