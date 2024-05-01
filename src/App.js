@@ -7,7 +7,7 @@ import ClientsFeedback from "./components/ClientsFeedback/ClientsFeedback";
 import Team from "./components/Team/Team";
 import FAQ from "./components/FAQ/FAQ";
 import Subscribe from "./components/Subscribe/Subscribe";
-
+import Footer from "./components/Footer/Footer";
 const App = () => (
   <div className={styles.appContainer}>
     <Navbar />
@@ -19,6 +19,7 @@ const App = () => (
       <Team />
       <FAQ />
       <Subscribe />
+      <Footer />
     </div>
   </div>
 );
